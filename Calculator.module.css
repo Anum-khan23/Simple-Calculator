@@ -1,0 +1,122 @@
+/* Container: Vibrant gradient background */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fe99ff 100%);
+  }
+  
+  /* Card: Soft, rounded, and shadowed */
+  .card {
+    width: 100%;
+    max-width: 400px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Title: Larger, bolder, and colorful */
+  .title {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Input: Colorful border and focus effect */
+  .input {
+    padding: 12px;
+    border: 2px solid #ff9a9e;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #fe99ff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(254, 153, 255, 0.5);
+  }
+  
+  /* Button: Colorful buttons with hover effects */
+  .button {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #ff416c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #ff4b2b;
+    transform: scale(1.05);
+  }
+  
+  /* Different colors for each operation */
+  .add {
+    background-color: #28c76f;
+  }
+  
+  .subtract {
+    background-color: #ff9f43;
+  }
+  
+  .multiply {
+    background-color: #7367f0;
+  }
+  
+  .divide {
+    background-color: #ea5455;
+  }
+  
+  /* Clear button: Distinct red color */
+  .clear {
+    background-color: #f6416c;
+  }
+  
+  .clear:hover {
+    background-color: #ff3860;
+  }
+  
+  /* Result input: Soft background */
+  .result {
+    background-color: #ffe5ec;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ff4b2b;
+    text-align: center;
+    font-size: 18px;
+    color: #ff416c;
+  }
+  .quote {
+    font-size: 16px;  /* Adjust font size as needed */
+    text-align: center;
+    margin: 20px 0;   /* Space around the quote */
+    color: #ff416c;   /* Change color if desired */
+    font-style: italic; /* Italic style for a quote feel */
+  }
+  /* Footer: Simple text with spacing */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff4b2b;
+  }
+  .icon {
+    margin-right: 8px; /* Space between icon and title */
+    color: #ff416c; /* Color for the icon */
+    font-size: 24px; /* Size of the icon */
+}
